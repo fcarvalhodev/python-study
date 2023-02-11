@@ -1,3 +1,8 @@
+# The Big O notation for selection sort is O(n^2).
+# This is because there are two nested loops.
+# The first loop goes through n elements.
+# The second loop also goes through n elements for each iteration of the first loop.
+
 def smallSearch(arr):
     minor = arr[0]
     minor_index = 0
@@ -15,8 +20,3 @@ def selectionSort(arr):
     return newArr
 
 print(selectionSort([5, 3, 6, 2, 10]))
-
-# The Big O notation for selection sort is O(n^2).
-# This is because there are two nested loops.
-# The first loop goes through n elements.
-# The second loop also goes through n elements for each iteration of the first loop.
